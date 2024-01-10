@@ -81,8 +81,8 @@ body {
         box-shadow: 0px 0px 10px 2px #5c5c5c;
         color: white;
         margin: 20vh auto;
-        width: 90vw;
-        height: 70vh;
+        width: 88vw;
+        height: 60vh;
         font-size: 5vw;
         font-weight: bolder;
         display: flex;
@@ -101,7 +101,7 @@ body {
 
     .resposta {
         border: 0.5vw solid white;
-        width: 73vw;
+        width: 78vw;
         margin-top: 7vw;
         box-shadow: 1px 1px 4px 2px rgb(216, 216, 186);
         border: 0.4vw solid black;
