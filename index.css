@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'HARRYP__';
+    src: url('HARRYP__.TTF') format('truetype');
+    /* Adicione mais formatos, como woff, se necessário */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Nanum Myeongjo', serif; 
+    margin: 0;
+    padding: 0;
+}
+
+.destaqueTexto {
+    color: #ffd700; /* Amarelo como destaque */
+    font-family: 'HARRYP__', sans-serif;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #0a0092;
+}
+
+.descricao {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.botaoStart {
+    background-color: #9b870c; /* Cor do botão */
+    color: black; /* Cor do texto do botão */
+    box-shadow: 0px 0px 10px 2px #ffd700; /* Sombra amarela */
+    border: none;
+    border-radius: 1vw;
+    font-family: 'HARRYP__', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    height: 11vw;
+}
+
+@media (max-width: 800px) {
+
+    body {
+        background-image: url("https://i.pinimg.com/originals/7a/3c/a7/7a3ca72c9a9bb5ec14496b85a06c0c31.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #boasVindas {
+        font-size: 5vw;
+        margin: 26vw auto;
+        width: 98vw;
+        height: 40vh;
+        background-color: rgba(0, 0, 0, 0.397);
+        box-shadow: 1px 1px 15px 5px black;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding: 2vw;
+    }
+
+    #imgHarry {
+        position: absolute;
+        top: 70vw;
+        left: 50vw;
+        height: 50%;
+    }
+
+    #botaoStart {
+        font-family: 'HARRYP__', sans-serif;
+        letter-spacing: 2px;
+        font-size: 20px;
+        height: 11vw;
+    }
+
+    #questoes { 
+        box-shadow: 0px 0px 10px 2px #5c5c5c;
+        color: white;
+        margin: 20vh auto;
+        width: 90vw;
+        height: 70vh;
+        font-size: 5vw;
+        font-weight: bolder;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        background-color: rgb(87, 87, 87);
+        border-radius: 1vw;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #questoes input{
+        font-size: 4vw;
+    }
+
+    .resposta {
+        border: 0.5vw solid white;
+        width: 73vw;
+        margin-top: 7vw;
+        box-shadow: 1px 1px 4px 2px rgb(216, 216, 186);
+        border: 0.4vw solid black;
+        margin-left: 4.3vw;
+    }
+
+    #areaAsk {
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        
+    }
+
+    .chapeuSeletor {
+        width: 70vw;
+        animation: mover 2s linear infinite;
+        position: absolute;
+        margin-top: 33vw;
+    }
+
+    #contagem {
+        margin-bottom: -8vw;
+        margin-top: 1vw;
+    }
+
+    @keyframes mover {
+        0% {
+            top: -33vw;
+        }
+        50% {
+            top: -30vw;
+        }
+        100% {
+            top: -33vw;
+        }
+    }
+
+    .card{
+        background-color: black;
+        width: 85vw;
+        height: 60vh;    
+    }
+    #telaFinal{
+        display: none;
+        width: 80vw;
+        height: 80vh;
+        margin: 10vh auto;
+        box-shadow: 1px 1px 15px 3px white;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3vw;
+    }
+    #imagemCasa{
+        height: 230px;
+        width: 240px;
+    }
+
+
+    @keyframes flutuarCasa {
+        from{
+            top: 2vw;
+        }
+        to{
+            top: 6vw;
+        }
+    }
+  
+}
